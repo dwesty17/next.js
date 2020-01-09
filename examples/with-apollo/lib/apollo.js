@@ -40,6 +40,8 @@ export function withApollo(PageComponent, { ssr = true } = {}) {
 
   if (ssr || PageComponent.getInitialProps) {
     WithApollo.getInitialProps = async ctx => {
+      console.log(process.env.TZ);
+
       const { AppTree } = ctx
 
       // Initialize ApolloClient, add it to the ctx object so

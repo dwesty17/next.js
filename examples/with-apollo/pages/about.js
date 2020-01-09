@@ -35,8 +35,7 @@ export default () => (
         resolves, our Apollo Client store is completely initialized.
       </p>
       <p>
-        This example relies on <a href="http://graph.cool">graph.cool</a> for
-        its GraphQL backend.
+        This example relies on it's own mock Apollo server as the GraphQL backend.
       </p>
     </article>
   </App>
